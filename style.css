@@ -2,8 +2,8 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
     background-image: url('images/parchment-bg.png');
-    background-color: #f0f8ff; /* Pastel light blue */
-    color: #5c5c5c; /* Darker grey for text */
+    background-color: #f8f0e3; /* Light parchment */
+    color: #3a3a3a; /* Dark charcoal */
     line-height: 1.8;
     margin: 0;
     padding: 0;
@@ -18,26 +18,26 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'MedievalSharp', cursive; /* ファンタジー風フォント */
-    color: #87ceeb; /* Pastel sky blue */
+    color: #5a4a3a; /* Muted brown */
     font-weight: normal;
     text-align: center;
 }
 
 a {
-    color: #6a5acd; /* Pastel purple */
+    color: #7a6a5a; /* Muted gold/brown */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #483d8b; /* Darker pastel purple */
+    color: #5a4a3a; /* Darker muted brown */
     text-decoration: none;
 }
 
 /* ヘッダー */
 header {
-    background-color: rgba(240, 248, 255, 0.8); /* Pastel light blue with transparency */
-    border-bottom: 2px solid #add8e6; /* Pastel light blue border */
+    background-color: rgba(248, 240, 227, 0.8); /* Light parchment with transparency */
+    border-bottom: 2px solid #d4c2a8; /* Aged border */
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -95,10 +95,10 @@ header nav a {
 
 /* メインコンテンツ */
 main section {
-    background-color: rgba(255, 250, 240, 0.85); /* Pastel floral white with transparency */
+    background-color: rgba(255, 255, 255, 0.85); /* White with transparency */
     padding: 60px 40px;
-    border-bottom: 1px dashed #e0ffff; /* Pastel light cyan border */
-    margin: 0 20px; /* 左右に少し余白 */
+    border-bottom: 1px dashed #d4c2a8; /* Aged dashed border */
+    margin: 0 20px; /* Some margin on sides */
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
@@ -115,8 +115,8 @@ main h3 {
 }
 
 .join-card {
-    background-color: #fffafa; /* Pastel snow */
-    border: 1px solid #e0ffff; /* Pastel light cyan border */
+    background-color: #ffffff; /* White */
+    border: 1px solid #d4c2a8; /* Aged border */
     padding: 25px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     border-radius: 5px;
@@ -135,19 +135,19 @@ main h3 {
 }
 
 .book-card {
-    background-color: #ffe4e1; /* Pastel misty rose */
-    border: 2px solid #ffb6c1; /* Pastel light pink border */
+    background-color: #f0e6d6; /* Slightly darker parchment */
+    border: 2px solid #a08d7a; /* Darker aged border */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .book-card a {
-    color: #cd5c5c; /* Indian red for emphasis */
+    color: #8b4513; /* Saddle brown for emphasis */
     font-weight: bold;
     text-decoration: underline;
 }
 
 .book-card a:hover {
-    color: #a52a2a; /* Brown for hover */
+    color: #6a3a0a; /* Darker brown for hover */
 }
 
 /* 私たちの哲学 */
@@ -158,8 +158,8 @@ main h3 {
 }
 
 .philosophy-item {
-    background-color: #e6e6fa; /* Pastel lavender */
-    border-left: 5px solid #b0c4de; /* Pastel light steel blue */
+    background-color: #e8e0d0; /* Muted aged parchment */
+    border-left: 5px solid #5a4a3a; /* Darker muted brown border */
     padding: 20px 30px;
 }
 
@@ -177,8 +177,8 @@ main h3 {
 }
 
 .member-card {
-    background-color: #fffafa; /* Pastel snow */
-    border: 1px solid #e0ffff; /* Pastel light cyan border */
+    background-color: #ffffff; /* White */
+    border: 1px solid #d4c2a8; /* Aged border */
     padding: 25px;
     text-align: center;
     border-radius: 5px;
@@ -191,12 +191,12 @@ main h3 {
 }
 
 .member-card img {
-    width: 200px; /* または任意の固定サイズ */
-    height: 200px; /* widthと同じ値で正方形に */
-    object-fit: cover; /* 画像がトリミングされてフィットするように */
-    border-radius: 50%; /* 丸くする */
-    margin: 15px auto 0; /* 上に少し余白、中央寄せ */
-    border: 3px solid #e0ffff; /* Pastel light cyan border */
+    width: 200px; /* Or any fixed size */
+    height: 200px; /* Same as width for square */
+    object-fit: cover; /* Image fits with cropping */
+    border-radius: 50%; /* Round */
+    margin: 15px auto 0; /* Some top margin, centered */
+    border: 3px solid #d4c2a8; /* Border */
 }
 
 /* お問い合わせ */
@@ -206,8 +206,8 @@ main h3 {
 
 /* フッター */
 footer {
-    background-color: #b0e0e6; /* Pastel powder blue */
-    color: #4682b4; /* Steel blue for text */
+    background-color: #4a3f35; /* Dark brown */
+    color: #f8f0e3; /* Light parchment */
     text-align: center;
     padding: 30px 0;
 }
@@ -217,12 +217,12 @@ footer {
 }
 
 .social-links a {
-    color: #4682b4; /* Steel blue */
+    color: #f8f0e3; /* Light parchment */
     font-size: 1.8em;
     margin: 0 15px;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #6a5acd; /* Pastel purple */
+    color: #ffffff; /* White on hover */
 }
