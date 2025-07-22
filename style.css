@@ -175,8 +175,8 @@ main h3 {
 }
 
 .member-card img {
-    width: 150px; /* または任意の固定サイズ */
-    height: 150px; /* widthと同じ値で正方形に */
+    width: 200px; /* または任意の固定サイズ */
+    height: 200px; /* widthと同じ値で正方形に */
     object-fit: cover; /* 画像がトリミングされてフィットするように */
     border-radius: 50%; /* 丸くする */
     margin: 15px auto 0; /* 上に少し余白、中央寄せ */
