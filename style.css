@@ -2,8 +2,8 @@
 body {
     font-family: 'Noto Sans JP', sans-serif;
     background-image: url('images/parchment-bg.png');
-    background-color: #f4f1e9; /* フォールバック */
-    color: #4a3f35; /* 暗い茶色 */
+    background-color: #f0f8ff; /* Pastel light blue */
+    color: #5c5c5c; /* Darker grey for text */
     line-height: 1.8;
     margin: 0;
     padding: 0;
@@ -18,26 +18,26 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'MedievalSharp', cursive; /* ファンタジー風フォント */
-    color: #6d5d4b; /* 少し濃い茶色 */
+    color: #87ceeb; /* Pastel sky blue */
     font-weight: normal;
     text-align: center;
 }
 
 a {
-    color: #8c7b6a;
+    color: #6a5acd; /* Pastel purple */
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #6d5d4b;
+    color: #483d8b; /* Darker pastel purple */
     text-decoration: none;
 }
 
 /* ヘッダー */
 header {
-    background-color: rgba(233, 226, 213, 0.8); /* 少し透明な背景 */
-    border-bottom: 2px solid #dcd1b9;
+    background-color: rgba(240, 248, 255, 0.8); /* Pastel light blue with transparency */
+    border-bottom: 2px solid #add8e6; /* Pastel light blue border */
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -95,9 +95,9 @@ header nav a {
 
 /* メインコンテンツ */
 main section {
-    background-color: rgba(244, 241, 233, 0.85); /* 半透明の羊皮紙色 */
+    background-color: rgba(255, 250, 240, 0.85); /* Pastel floral white with transparency */
     padding: 60px 40px;
-    border-bottom: 1px dashed #dcd1b9;
+    border-bottom: 1px dashed #e0ffff; /* Pastel light cyan border */
     margin: 0 20px; /* 左右に少し余白 */
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
@@ -115,8 +115,8 @@ main h3 {
 }
 
 .join-card {
-    background-color: #fff;
-    border: 1px solid #dcd1b9;
+    background-color: #fffafa; /* Pastel snow */
+    border: 1px solid #e0ffff; /* Pastel light cyan border */
     padding: 25px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     border-radius: 5px;
@@ -135,19 +135,19 @@ main h3 {
 }
 
 .book-card {
-    background-color: #fcf8e3; /* 明るい羊皮紙色 */
-    border: 2px solid #a08d7a; /* 濃いめの茶色の枠線 */
+    background-color: #ffe4e1; /* Pastel misty rose */
+    border: 2px solid #ffb6c1; /* Pastel light pink border */
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 .book-card a {
-    color: #a08d7a; /* リンクの色を強調 */
+    color: #cd5c5c; /* Indian red for emphasis */
     font-weight: bold;
     text-decoration: underline;
 }
 
 .book-card a:hover {
-    color: #6d5d4b;
+    color: #a52a2a; /* Brown for hover */
 }
 
 /* 私たちの哲学 */
@@ -158,8 +158,8 @@ main h3 {
 }
 
 .philosophy-item {
-    background-color: #e9e2d5;
-    border-left: 5px solid #6d5d4b;
+    background-color: #e6e6fa; /* Pastel lavender */
+    border-left: 5px solid #b0c4de; /* Pastel light steel blue */
     padding: 20px 30px;
 }
 
@@ -177,8 +177,8 @@ main h3 {
 }
 
 .member-card {
-    background-color: #fff;
-    border: 1px solid #dcd1b9;
+    background-color: #fffafa; /* Pastel snow */
+    border: 1px solid #e0ffff; /* Pastel light cyan border */
     padding: 25px;
     text-align: center;
     border-radius: 5px;
@@ -196,7 +196,7 @@ main h3 {
     object-fit: cover; /* 画像がトリミングされてフィットするように */
     border-radius: 50%; /* 丸くする */
     margin: 15px auto 0; /* 上に少し余白、中央寄せ */
-    border: 3px solid #dcd1b9; /* 枠線 */
+    border: 3px solid #e0ffff; /* Pastel light cyan border */
 }
 
 /* お問い合わせ */
@@ -206,8 +206,8 @@ main h3 {
 
 /* フッター */
 footer {
-    background-color: #4a3f35;
-    color: #e9e2d5;
+    background-color: #b0e0e6; /* Pastel powder blue */
+    color: #4682b4; /* Steel blue for text */
     text-align: center;
     padding: 30px 0;
 }
@@ -217,12 +217,12 @@ footer {
 }
 
 .social-links a {
-    color: #e9e2d5;
+    color: #4682b4; /* Steel blue */
     font-size: 1.8em;
     margin: 0 15px;
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #fff;
+    color: #6a5acd; /* Pastel purple */
 }
