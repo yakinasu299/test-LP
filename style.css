@@ -134,6 +134,22 @@ main h3 {
     margin-bottom: 15px;
 }
 
+.book-card {
+    background-color: #fcf8e3; /* 明るい羊皮紙色 */
+    border: 2px solid #a08d7a; /* 濃いめの茶色の枠線 */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.book-card a {
+    color: #a08d7a; /* リンクの色を強調 */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.book-card a:hover {
+    color: #6d5d4b;
+}
+
 /* 私たちの哲学 */
 .philosophy-grid {
     display: grid;
